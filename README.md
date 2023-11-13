@@ -27,14 +27,14 @@ With the environment properly activated and from the main folder " ~your_persona
 ```bash
 python3 Python/almirantado_map_filtragens.py
 ```
-![image](results/almirantado_filtragens.png)
+![image](results/handmade/almirantado_filtragens.png)
 
 ### 2.2 - almirantado plastico
 - Collection of plastic samples trajectories done in Baia do Almirantado. This cam be generated through:
 ```bash
 python3 Python/almirantado_map_plastico.py
 ```
-![image](results/almirantado_plastico.png)
+![image](results/handmade/almirantado_plastico.png)
 
 ### 2.3 - drake plastico
 - Collection of plastic samples trajectories done in Drake Passage. This cam be generated through:

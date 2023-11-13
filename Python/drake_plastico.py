@@ -52,6 +52,6 @@ for _, row in st.iterrows():
 
 
 plt.title(
-    "MEPHYSTO OP42 - Microplásticos Drake", fontsize=10, fontweight="bold"
+    "MEPHYSTO OP42 Drake - Microplásticos", fontsize=10, fontweight="bold"
 )
 plt.savefig('results/drake_plastico.png', dpi=300)
