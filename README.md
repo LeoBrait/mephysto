@@ -20,7 +20,9 @@ conda activate mephysto
 ```
 
 ## 2 Usage
-With the environment properly activated and from the main folder " ~your_personal_path/mephysto " you can run each script for figures generation. 
+With the environment properly activated and from the main folder " ~your_personal_path/mephysto " you can run each script for figures generation.
+
+ATTENTION: The final figures are in results/handmade folder
 
 ### 2.1 - almirantado filtragens
 - Collection of water filtered samples in Baia do Almirantado. This cam be generated through
