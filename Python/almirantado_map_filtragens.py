@@ -11,7 +11,7 @@ import numpy as np
 import pygmt
 
 # Positions
-station = ("data/reijorge_pontos.csv")
+station = ("data/almirantado_filtragens.csv")
 st = pd.read_csv(station, names = ["station","latitude", "longitude"], header=0)
 lat_ida = st['latitude'].values[0:5]
 long_ida = st['longitude'].values[0:5]
@@ -68,4 +68,4 @@ fig.plot(x = -58.39, y = -62.09, style = "c0.2c", fill = "black", pen = "black")
 fig.text(text = "EACF", x = -58.36, y = -62.09, font = "10p,Helvetica-Bold,black")
 fig.legend(position = "JTR+jTR", box = True)
 
-fig.savefig('results/almirantado_pontos.png', dpi = 300)
+fig.savefig('results/almirantado_filtragens.png', dpi = 300)

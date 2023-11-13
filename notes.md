@@ -1,1 +1,0 @@
-intalar o basemap primeiro

@@ -11,7 +11,7 @@ import numpy as np
 import pygmt
 
 # Load data --------------------------------------------------------------------
-station = ("data/reijorge_arrastos.csv")
+station = ("data/almirantado_plastico.csv")
 st = pd.read_csv(
     station,
     names = [
@@ -105,5 +105,5 @@ fig.text(
     text = "EACF", x = -58.36, y = -62.09, font = "10p,Helvetica-Bold,black"
 )
 fig.legend(position = "JTR+jTR", box = True)
-fig.savefig('results/almirantado_arrastos.png', dpi = 300)
+fig.savefig('results/almirantado_plastico.png', dpi = 300)
 print("image generated")

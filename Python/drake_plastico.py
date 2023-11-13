@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load data
-station = ("data/drake_arrastos.csv")
+station = ("data/drake_plastico.csv")
 st = pd.read_csv(
     station,
     names = [
@@ -54,4 +54,4 @@ for _, row in st.iterrows():
 plt.title(
     "MEPHYSTO OP42 - Microplásticos Drake", fontsize=10, fontweight="bold"
 )
-plt.savefig('results/arrastos_drake.png', dpi=300)
+plt.savefig('results/drake_plastico.png', dpi=300)
