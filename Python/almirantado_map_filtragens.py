@@ -13,12 +13,14 @@ import pygmt
 # Positions
 station = ("data/almirantado_filtragens.csv")
 st = pd.read_csv(station, names = ["station","latitude", "longitude"], header=0)
-lat_ida = st['latitude'].values[0:5]
-long_ida = st['longitude'].values[0:5]
-lat_volta = st['latitude'].values[6:11]
-long_volta = st['longitude'].values[6:11]
+lat_ida = st['latitude'].values[0:6]
+long_ida = st['longitude'].values[0:6]
+lat_volta = st['latitude'].values[6:12]
+long_volta = st['longitude'].values[6:12]
 lat_nict = st['latitude'].values[12]
 long_nict = st['longitude'].values[12]
+print(st[0:6])
+print(st[6:12])
 
 
 fig = pygmt.Figure()
